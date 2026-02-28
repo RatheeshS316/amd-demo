@@ -144,7 +144,7 @@ export const DashboardHome = ({ navigate }) => (
       </div>
       <div className="flex-1 bg-[#050505] rounded-xl border border-[#222] relative overflow-hidden flex items-center justify-center min-h-[450px]">
         <div className="cyber-grid opacity-30 z-0"></div>
-        <div className="absolute inset-0 w-full h-full z-10" style={{backgroundImage:'url("https://upload.wikimedia.org/wikipedia/commons/e/ec/World_map_blank_without_borders.svg")',backgroundSize:'cover',backgroundRepeat:'no-repeat',backgroundPosition:'center',filter:'invert(1) brightness(0.2) opacity(0.6)'}} />
+        <div className="absolute inset-0 w-full h-full z-10" style={{backgroundImage:'url("https://upload.wikimedia.org/wikipedia/commons/e/ec/World_map_blank_without_borders.svg")',backgroundSize:'110%',backgroundRepeat:'no-repeat',backgroundPosition:'center',filter:'brightness(0.55) sepia(1) hue-rotate(300deg) saturate(3)',opacity:'0.85'}} />
         <div className="absolute top-[35%] left-[30%] z-30 flex flex-col items-center cursor-pointer hover:scale-110 transition-transform">
           <MapPin className="text-[#ff3333] w-10 h-10 drop-shadow-[0_0_15px_rgba(255,51,51,0.9)] animate-pulse-glow" />
           <div className="w-3 h-3 bg-[#ff3333] rounded-full absolute top-10 animate-ping opacity-80"></div>
